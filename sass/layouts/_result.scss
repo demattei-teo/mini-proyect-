@@ -1,0 +1,29 @@
+@use '../general' as *;
+
+.results{
+    max-width: 49.375rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    font-family: $primary-font;
+    box-shadow: 10px 8px 24px 0px rgba(182,169,201,1);
+    border-radius:1.5rem;
+    
+
+    
+    &__summary {
+       background-color: $White;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: flex-start;
+       gap: 2.5rem;
+       border-radius: 1.5rem;
+       padding: 1.5rem ;
+    }
+
+    @media(min-width:768px){
+     
+        flex-direction: row;
+    }
+}
