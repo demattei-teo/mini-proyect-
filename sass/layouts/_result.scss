@@ -11,17 +11,6 @@
     
 
     
-    &__summary {
-       background-color: $White;
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-       align-items: flex-start;
-       gap: 2.5rem;
-       border-radius: 1.5rem;
-       padding: 1.5rem ;
-    }
-
     @media(min-width:768px){
      
         flex-direction: row;
