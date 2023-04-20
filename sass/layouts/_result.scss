@@ -1,18 +1,15 @@
 @use '../general' as *;
 
-.results{
-    max-width: 49.375rem;
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    font-family: $primary-font;
-    box-shadow: 10px 8px 24px 0px rgba(182,169,201,1);
-    border-radius:1.5rem;
-    
+.results {
+  max-width: 49.375rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  font-family: $primary-font;
+  box-shadow: 0.625rem 0.5rem 24px 0rem rgba(182, 169, 201, 1);
+  border-radius: 1.5rem;
 
-    
-    @media(min-width:768px){
-     
-        flex-direction: row;
-    }
+  @media (min-width: 48rem) {
+    flex-direction: row;
+  }
 }

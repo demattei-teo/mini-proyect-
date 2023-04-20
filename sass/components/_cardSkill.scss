@@ -1,0 +1,54 @@
+@use '/sass/general/variables' as *;
+
+.cardSkill {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.9rem 1rem;
+  align-items: center;
+  border-radius: 0.5rem;
+
+  &-containerName {
+    gap: 0.3125rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  &-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  &-score {
+    color: #000;
+    font-weight: $font-medium;
+    font-weight: $font-bold;
+  }
+
+  &-number {
+    color: #00000075;
+    font-weight: $font-bold;
+  }
+}
+.cardSkill-reaction {
+  background-color: hsla(0, 100%, 67%, 0.082);
+  color: $Light-red;
+}
+
+.cardSkill-memory {
+  background-color: hsla(39, 100%, 56%, 0.094);
+  color: $Orangey-yellow;
+}
+
+.cardSkill-verbal {
+  background-color: hsla(166, 100%, 37%, 0.093);
+  color: $Green-teal;
+}
+
+.cardSkill-visual {
+  background-color: hsla(234, 85%, 45%, 0.096);
+  color: $Cobalt-blue;
+}
